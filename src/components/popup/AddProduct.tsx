@@ -246,6 +246,7 @@ const AddProduct: React.FC<PopupProps> = ({ isOpen, onClose, editProduct }) => {
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-2 gap-14">
               {/* Column 1 */}
+
               <div className="space-y-4">
                 <div>
                   <label className="block text-md text-[#898989] mb-1 ml-[30px]">Category</label>
@@ -312,6 +313,7 @@ const AddProduct: React.FC<PopupProps> = ({ isOpen, onClose, editProduct }) => {
               </div>
 
               {/* Column 2 */}
+              
               <div className="space-y-4">
                 <div>
                   <label className="block text-md text-[#898989] mb-1 ml-[30px]">Quantity</label>
